@@ -97,7 +97,7 @@ const Timer = (props) => {
 };
 const Square = ({ language }) => {
     return (
-        <Box sx={{ border: "solid 3px #b0946e", color: "#b0946e", mx: 1, p: 3, display: "flex", flexDirection: "column", alignItems: "center" }}>
+        <Box sx={{ border: "solid 3px #b0946e", color: "#6d8d6e", mx: 1, p: 3, display: "flex", flexDirection: "column", alignItems: "center" }}>
             <DownloadOutlined fontSize="large" />
             {language}
         </Box>
