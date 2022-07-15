@@ -105,7 +105,7 @@ const Roadmap = () => {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector sx={{ bgcolor: "grey.100" }} />
-                        <TimelineDot color="secondary" sx={{ boxShadow: "none" }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
+                        <TimelineDot sx={{ boxShadow: "none" }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
                         <TimelineConnector sx={{ bgcolor: "grey.100" }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "15px" }}>
@@ -130,7 +130,7 @@ const RoadmapMobile = () => {
 
 const RoadmapSection = () => {
     return (
-        <Box sx={{ py: 7 }}>
+        <Box sx={{ py: 7, bgcolor: "white" }}>
             <Container>
                 <Typography variant="h4" component="div" color="text.primary" sx={{ fontWeight: "bold", mb: 2, textAlign: "center" }}>
                     Roadmap

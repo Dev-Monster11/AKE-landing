@@ -5,6 +5,7 @@ import TokenomicsSection from "../../components/home/TokenomicsSection";
 import RoadmapSection from "../../components/home/RoadmapSection";
 import FeaturesSection from "../../components/home/FeaturesSection";
 import WhyUsSection from "../../components/home/WhyUsSection";
+import FaqSection from "../../components/home/FaqSection";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             {/* <HowToSection />
             <TokenomicsSection /> */}
             <RoadmapSection />
+            <FaqSection />
         </Fragment>
     );
 }
