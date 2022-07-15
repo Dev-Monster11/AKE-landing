@@ -11,9 +11,9 @@ const HeroSection = () => {
     return (
         <Box className="fadeInUp" sx={{ m: 0, mt: { sm: 8, xs: 6 } }}>
             <Box component="img" alt="back" src="back.jpg" width="100%" />
-            <Box sx={{ maxWidth: "700px", py: 5, mb: 5, mx: "auto", textAlign: "center" }}>
+            <Box sx={{ maxWidth: "700px", py: { sm: 5, xs: 2 }, mb: { sm: 5, xs: 2 }, mx: "auto", textAlign: "center" }}>
                 <Box sx={{ color: "#363636", fontWeight: "bold", mb: 3, typography: { sm: "h2", xs: "h5" } }} component="div">
-                    AKE ICO Platform
+                    ALKEBULEUM
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
                     <Button sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 } }}>Read More</Button>
