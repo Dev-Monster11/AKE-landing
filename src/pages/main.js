@@ -2,18 +2,21 @@ import * as React from "react";
 import { useState, useEffect } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
-import Dashboard from "./dashboard";
-import HeaderNav from "../components/header_nav";
+import MainNavigation from "../components/layout/Header/MainNavigation";
+import Footer from "../components/layout/Footer";
+import Home from "./home";
 
 function Main() {
     return (
         <Router>
-            <HeaderNav />
+            {/* <HeaderNav /> */}
+            <MainNavigation />
             <Box>
                 <Routes>
-                    <Route exact path="/" element={<Dashboard />} />
+                    <Route exact path="/" element={<Home />} />
                 </Routes>
             </Box>
+            <Footer />
         </Router>
     );
 }
