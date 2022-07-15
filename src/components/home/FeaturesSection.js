@@ -16,7 +16,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     },
     [`& .${linearProgressClasses.bar}`]: {
         borderRadius: 5,
-        backgroundColor: theme.palette.mode === "light" ? "#1a90ff" : "#308fe8",
+        backgroundColor: theme.palette.mode === "light" ? "#6d8d6e" : "#308fe8",
     },
 }));
 
@@ -103,14 +103,9 @@ const FeaturesSection = () => {
                 <Grid item xs={12} md={6} sx={{ px: 3 }}>
                     <Card sx={{ minWidth: 275, maxWidth: 600, mx: "auto", bgcolor: "#b0946e", color: "white", py: 3 }}>
                         <CardContent sx={{ textAlign: "center" }}>
-                            <Typography
-                                variant="h4"
-                                color="#363636"
-                                sx={{ fontWeight: "bold", color: "white", mb: 3, fontsize: { sm: "4rem", xs: "2rem" } }}
-                                component="div"
-                            >
+                            <Box sx={{ fontWeight: "bold", color: "white", mb: 3, typography: { sm: "h4", xs: "h5" } }} component="div">
                                 TOKEN SALE ENDS IN
-                            </Typography>
+                            </Box>
 
                             <Timer />
 
