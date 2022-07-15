@@ -12,7 +12,10 @@ const HeroSection = () => {
         <Box className="fadeInUp" sx={{ m: 0, mt: { sm: 8, xs: 6 } }}>
             <Box component="img" alt="back" src="back.jpg" width="100%" />
             <Box sx={{ maxWidth: "700px", py: { sm: 5, xs: 2 }, mb: { sm: 5, xs: 2 }, mx: "auto", textAlign: "center" }}>
-                <Box sx={{ color: "#363636", fontWeight: "bold", mb: 3, typography: { sm: "h3", xs: "h6" } }} component="div">
+                <Box sx={{ color: "#363636", fontWeight: "bold", typography: { sm: "h2", xs: "h5" } }} component="div">
+                    ALKEBULEUM
+                </Box>
+                <Box sx={{ color: "#363636", fontWeight: "bold", mb: 3, typography: { sm: "h5", xs: "body" } }} component="div">
                     AKE ICO platform
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
