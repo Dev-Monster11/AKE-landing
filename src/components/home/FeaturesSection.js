@@ -6,7 +6,7 @@ import { Card, CardContent, Button } from "@mui/material";
 import Countdown from "react-countdown";
 import { bgcolor } from "@mui/system";
 import { styled } from "@mui/material/styles";
-
+import DownloadOutlined from "@mui/icons-material/DownloadOutlined";
 import LinearProgress, { linearProgressClasses } from "@mui/material/LinearProgress";
 const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     height: 10,
@@ -95,7 +95,14 @@ const Timer = (props) => {
         </>
     );
 };
-
+const Square = ({ language }) => {
+    return (
+        <Box sx={{ border: "solid 3px #b0946e", color: "#b0946e", mx: 1, p: 3, display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <DownloadOutlined fontSize="large" />
+            {language}
+        </Box>
+    );
+};
 const FeaturesSection = () => {
     return (
         <Box sx={{ py: 7, border: "none", bgcolor: "white" }}>
@@ -125,8 +132,11 @@ const FeaturesSection = () => {
                         Especially if you’re already looking for a solution for a website that would accept charges of different currencies.
                     </Typography>
 
-                    <Box sx={{ textAlign: "center" }}>
-                        <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More Tokens</Button>
+                    <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
+                        {/* <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More Tokens</Button> */}
+                        <Square language="English" />
+                        <Square language="French" />
+                        <Square language="Swahili" />
                     </Box>
                 </Grid>
             </Grid>
