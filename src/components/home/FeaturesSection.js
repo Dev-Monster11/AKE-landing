@@ -126,6 +126,8 @@ const FeaturesSection = () => {
                     </Card>
                 </Grid>
                 <Grid item xs={12} md={6} sx={{ px: 4 }}>
+                    <Box sx={{ color: "#363636", typography: { sm: "h4", xs: "h5" }, mb: 2 }}>Download token whitepaper </Box>
+
                     <Typography variant="body" color="#363636" component="div">
                         Considering the growing interest of public towards the crypto currencies and their rising popularity, this template has got
                         all the chances to become a successful internet enterprise for mining hardware manufacturer or new cryptocurrency project.
