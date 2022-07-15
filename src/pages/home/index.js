@@ -13,8 +13,8 @@ export default function Home() {
             <FeaturesSection />
             <WhyUsSection />
             {/* <HowToSection />
-            <TokenomicsSection />
-            <RoadmapSection /> */}
+            <TokenomicsSection /> */}
+            <RoadmapSection />
         </Fragment>
     );
 }

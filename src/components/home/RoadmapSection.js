@@ -105,7 +105,7 @@ const Roadmap = () => {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector sx={{ bgcolor: "grey.100" }} />
-                        <TimelineDot sx={{ boxShadow: "none" }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
+                        <TimelineDot color="secondary" sx={{ boxShadow: "none" }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
                         <TimelineConnector sx={{ bgcolor: "grey.100" }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "15px" }}>
