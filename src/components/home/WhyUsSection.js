@@ -19,7 +19,7 @@ const WhyUsSection = () => {
                     </Typography>
                     <Box>
                         <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3, mr: 3 }}>Read More</Button>
-                        <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3, mr: 3 }}>Buy Tokens</Button>
+                        <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3, mr: 3 }}>Buy AKE</Button>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={5} sx={{ px: 3, display: "flex", justifyContent: "center" }}>

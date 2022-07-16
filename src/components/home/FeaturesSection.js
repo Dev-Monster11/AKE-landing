@@ -130,7 +130,7 @@ const FeaturesSection = () => {
                                 <BorderLinearProgress variant="determinate" value={50} />
                             </Box>
                             <Box>
-                                <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More Tokens</Button>
+                                <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More AKE</Button>
                             </Box>
                         </CardContent>
                     </Card>
@@ -147,7 +147,7 @@ const FeaturesSection = () => {
                     </Typography>
 
                     <Box sx={{ display: "flex", justifyContent: "center", mt: 3 }}>
-                        {/* <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More Tokens</Button> */}
+                        {/* <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More AKE</Button> */}
                         <Square language="English" />
                         <Square language="French" />
                         <Square language="Swahili" />
