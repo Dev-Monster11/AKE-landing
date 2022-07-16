@@ -9,10 +9,16 @@ import { styled } from "@mui/material/styles";
 
 const FooterSection = () => {
     return (
-        <Box sx={{ py: 7, border: "none", bgcolor: "#e6be9a" }}>
+        <Box sx={{ pt: 4, border: "none", bgcolor: "#e6be9a" }}>
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
+                <Grid item xs={12} sm={6}>
+                    About us
+                </Grid>
+                <Grid item xs={12} sm={6}>
+                    Contacts
+                </Grid>
                 <Grid item xs={12}>
-                    Footer Section
+                    Social links
                 </Grid>
             </Grid>
         </Box>
