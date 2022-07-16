@@ -56,9 +56,9 @@ const RoadmapItemsRight = ({ items }) => {
                 <TimelineItem key={i}>
                     <TimelineOppositeContent sx={{ display: "none" }} />
                     <TimelineSeparator>
-                        <TimelineConnector sx={{ bgcolor: "grey.100" }} />
+                        <TimelineConnector />
                         <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none" }}></TimelineDot>
-                        <TimelineConnector sx={{ bgcolor: "grey.100" }} />
+                        <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: "auto 0" }}>
                         <Typography variant="h6" component="span" sx={{ mb: 0 }}>
@@ -83,9 +83,9 @@ const RoadmapItemsLeft = ({ items }) => {
                         </Typography>
                     </TimelineContent>
                     <TimelineSeparator>
-                        <TimelineConnector sx={{ bgcolor: "grey.100" }} />
+                        <TimelineConnector />
                         <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none" }}></TimelineDot>
-                        <TimelineConnector sx={{ bgcolor: "grey.100" }} />
+                        <TimelineConnector />
                     </TimelineSeparator>
                 </TimelineItem>
             ))}
@@ -104,9 +104,9 @@ const Roadmap = () => {
                         </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineConnector sx={{ bgcolor: "grey.100" }} />
+                        <TimelineConnector />
                         <TimelineDot sx={{ boxShadow: "none" }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
-                        <TimelineConnector sx={{ bgcolor: "grey.100" }} />
+                        <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "15px" }}>
                         {i % 2 === 0 ? <RoadmapItemsRight items={phase.phase} /> : <RoadmapItemsLeft items={phase.phase} />}
