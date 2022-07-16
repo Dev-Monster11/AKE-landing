@@ -8,13 +8,13 @@ import { bgcolor } from "@mui/system";
 import { styled } from "@mui/material/styles";
 
 const TeamSection = () => {
-    const arr = ["abc", "abc", "abc", "abc", "abc", "abc", "abc", "abc", "abc"];
+    const arr = ["abc", "abc", "abc", "abc", "abc", "abc"];
     return (
         <Box sx={{ py: 7, border: "none", bgcolor: "white" }}>
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
                 {arr.map((ele) => {
                     return (
-                        <Grid item xs={12} sm={6} md={4} lg={3} sx={{ px: 3 }}>
+                        <Grid item xs={12} sm={6} md={4} sx={{ px: 3 }}>
                             <Card
                                 sx={{
                                     minWidth: 300,
