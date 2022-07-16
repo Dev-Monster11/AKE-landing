@@ -62,7 +62,7 @@ const Footer = () => {
                 <Grid item xs={12} sm={6}>
                     <Box sx={{ display: "flex", justifyContent: { sm: "flex-end", xs: "flex-start" } }}>
                         Terms | Privacy <br />
-                        @2013 - 2022 Ripple, All Rights Reserved
+                        @2022 Alkebuleum, All Rights Reserved
                     </Box>
                 </Grid>
             </Grid>
