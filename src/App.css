@@ -81,14 +81,25 @@ input[type=number] {
 }
 .timeElement{
   color: #363636;
-    width: 50px;
-    height: 50px;
-    background-color: white;
-    border-radius: 3px;
-    margin-left:10px;
-    margin-right:10px;
-    font-size: 30px;
-    font-weight: bold;
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 3px;
+  margin-left:10px;
+  margin-right:10px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.socialLink{
+  color: #363636 !important;
+  background-color: white !important;
+  margin-right: 8px !important;
+  border-radius: 20px !important;
+  width: 35px !important;
+  height: 35px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 @keyframes pulse {
   0% {
