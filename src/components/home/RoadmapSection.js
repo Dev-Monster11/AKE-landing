@@ -56,9 +56,9 @@ const RoadmapItemsRight = ({ items }) => {
                 <TimelineItem key={i}>
                     <TimelineOppositeContent sx={{ display: "none" }} />
                     <TimelineSeparator>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ backgroundColor: "#d3ad90" }} />
                         <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none", borderColor: "#6d8d6e " }}></TimelineDot>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ backgroundColor: "#d3ad90" }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: "auto 0" }}>
                         <Typography variant="h6" component="span" sx={{ mb: 0 }}>
@@ -83,9 +83,9 @@ const RoadmapItemsLeft = ({ items }) => {
                         </Typography>
                     </TimelineContent>
                     <TimelineSeparator>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ backgroundColor: "#d3ad90" }} />
                         <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none", borderColor: "#6d8d6e " }}></TimelineDot>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ backgroundColor: "#d3ad90" }} />
                     </TimelineSeparator>
                 </TimelineItem>
             ))}
@@ -104,9 +104,9 @@ const Roadmap = () => {
                         </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ backgroundColor: "#d3ad90" }} />
                         <TimelineDot sx={{ boxShadow: "none", borderColor: "#6d8d6e " }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
-                        <TimelineConnector />
+                        <TimelineConnector sx={{ backgroundColor: "#d3ad90" }} />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "15px" }}>
                         {i % 2 === 0 ? <RoadmapItemsRight items={phase.phase} /> : <RoadmapItemsLeft items={phase.phase} />}

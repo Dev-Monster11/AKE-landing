@@ -14,7 +14,7 @@ const HeroSection = () => {
                 component="img"
                 alt="back"
                 src="back.png"
-                width="100vw"
+                width="100%"
                 sx={{ height: { xs: "330px", sm: "100%" }, objectFit: "cover", objectPosition: "center" }}
             />
             <Box sx={{ maxWidth: "700px", py: { sm: 5, xs: 2 }, mb: { sm: 5, xs: 2 }, mx: "auto", textAlign: "center" }}>
