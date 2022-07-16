@@ -14,7 +14,7 @@ import Facebook from "@mui/icons-material/Facebook";
 import Instagram from "@mui/icons-material/Instagram";
 import Reddit from "@mui/icons-material/Reddit";
 import Telegram from "@mui/icons-material/Telegram";
-
+import { FaDiscord } from "react-icons/fa";
 const Footer = () => {
     return (
         <Box sx={{ pt: 4, mb: 3, border: "none", bgcolor: "#e6be9a" }}>
@@ -51,10 +51,10 @@ const Footer = () => {
                         <Link href="https://Instagram.com/Alkebuleum" target="_blank" underline="none" className="socialLink">
                             <Instagram />
                         </Link>
-                        <Link href="#" underline="none" target="_blank" className="socialLink">
-                            <Reddit />
+                        <Link href="https://Instagram.com/Alkebuleum" underline="none" target="_blank" className="socialLink">
+                            <FaDiscord style={{ fontSize: "larger" }} />
                         </Link>
-                        <Link href="#" underline="none" target="_blank" className="socialLink">
+                        <Link href="https://t.me/alkebuleum" underline="none" target="_blank" className="socialLink">
                             <Telegram />
                         </Link>
                     </Box>
