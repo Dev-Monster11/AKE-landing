@@ -26,7 +26,7 @@ const HeroSection = () => {
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
                     <Button sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Read More</Button>
-                    <Button sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Buy Token</Button>
+                    <Button sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Buy AKE</Button>
                 </Box>
             </Box>
         </Box>
