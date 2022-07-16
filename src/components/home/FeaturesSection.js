@@ -118,7 +118,7 @@ const FeaturesSection = () => {
         <Box sx={{ py: 7, border: "none", bgcolor: "white" }}>
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
                 <Grid item xs={12} md={6} sx={{ px: 3 }}>
-                    <Card sx={{ minWidth: 275, maxWidth: 600, mx: "auto", bgcolor: "#bb9464", color: "#363636", py: 3 }}>
+                    <Card sx={{ minWidth: 275, maxWidth: 600, mx: "auto", bgcolor: "#b29874", color: "#363636", py: 3 }}>
                         <CardContent sx={{ textAlign: "center" }}>
                             <Box sx={{ fontWeight: "bold", mb: 3, typography: { sm: "h4", xs: "h5" } }} component="div">
                                 TOKEN SALE ENDS IN
