@@ -57,7 +57,7 @@ const RoadmapItemsRight = ({ items }) => {
                     <TimelineOppositeContent sx={{ display: "none" }} />
                     <TimelineSeparator>
                         <TimelineConnector />
-                        <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none" }}></TimelineDot>
+                        <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none", borderColor: "#6d8d6e " }}></TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ m: "auto 0" }}>
@@ -84,7 +84,7 @@ const RoadmapItemsLeft = ({ items }) => {
                     </TimelineContent>
                     <TimelineSeparator>
                         <TimelineConnector />
-                        <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none" }}></TimelineDot>
+                        <TimelineDot variant={item.done ? "filled" : "outlined"} sx={{ boxShadow: "none", borderColor: "#6d8d6e " }}></TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
                 </TimelineItem>
@@ -105,7 +105,7 @@ const Roadmap = () => {
                     </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineConnector />
-                        <TimelineDot sx={{ boxShadow: "none" }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
+                        <TimelineDot sx={{ boxShadow: "none", borderColor: "#6d8d6e " }} variant={phase.done ? "filled" : "outlined"}></TimelineDot>
                         <TimelineConnector />
                     </TimelineSeparator>
                     <TimelineContent sx={{ py: "15px" }}>
