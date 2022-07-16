@@ -16,7 +16,7 @@ const HeroSection = () => {
                     ALKEBULEUM
                 </Box>
                 <Box sx={{ color: "#363636", fontWeight: "bold", mb: 3, typography: { sm: "h5", xs: "body" } }} component="div">
-                    AKE ICO platform
+                    Decentralized platform powering the cryptocurrency Alke (AKE) and tailoring smart economy solutions for developing nations
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
                     <Button sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Read More</Button>
