@@ -10,7 +10,13 @@ import Container from "@mui/material/Container";
 const HeroSection = () => {
     return (
         <Box className="fadeInUp" sx={{ m: 0, mt: { sm: 8, xs: 7 } }}>
-            <Box component="img" alt="back" src="back.png" width="100%" />
+            <Box
+                component="img"
+                alt="back"
+                src="back.png"
+                width="100vw"
+                sx={{ height: { xs: "330px", sm: "100%" }, objectFit: "cover", objectPosition: "center" }}
+            />
             <Box sx={{ maxWidth: "700px", py: { sm: 5, xs: 2 }, mb: { sm: 5, xs: 2 }, mx: "auto", textAlign: "center" }}>
                 <Box sx={{ color: "#363636", fontWeight: "bold", typography: { sm: "h2", xs: "h5" } }} component="div">
                     ALKEBULEUM
