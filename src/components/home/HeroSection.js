@@ -21,7 +21,7 @@ const HeroSection = () => {
                 <Box sx={{ color: "#363636", fontWeight: "bold", typography: { sm: "h2", xs: "h5" } }} component="div">
                     ALKEBULEUM
                 </Box>
-                <Box sx={{ color: "#363636", fontWeight: "bold", mb: 3, px: 4, typography: { sm: "h5", xs: "body" } }} component="div">
+                <Box sx={{ color: "#363636", mb: 3, px: 4, typography: { sm: "h5", xs: "body" } }} component="div">
                     Decentralized platform powering the cryptocurrency Alke (AKE) and tailoring smart economy solutions for developing nations
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
