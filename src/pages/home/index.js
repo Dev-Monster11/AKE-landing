@@ -6,6 +6,8 @@ import RoadmapSection from "../../components/home/RoadmapSection";
 import FeaturesSection from "../../components/home/FeaturesSection";
 import WhyUsSection from "../../components/home/WhyUsSection";
 import FaqSection from "../../components/home/FaqSection";
+import TeamSection from "../../components/home/TeamSection";
+import FooterSection from "../../components/home/FooterSection";
 
 export default function Home() {
     return (
@@ -17,6 +19,8 @@ export default function Home() {
             <TokenomicsSection /> */}
             <RoadmapSection />
             <FaqSection />
+            <TeamSection />
+            <FooterSection />
         </Fragment>
     );
 }

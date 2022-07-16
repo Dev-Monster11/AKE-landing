@@ -7,12 +7,10 @@ import { bgcolor } from "@mui/system";
 import { styled } from "@mui/material/styles";
 const WhyUsSection = () => {
     return (
-        <Box sx={{ mt: 3 }}>
+        <Box sx={{ py: 5 }}>
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
                 <Grid item xs={12} sm={7} sx={{ px: 3 }}>
-                    <Box sx={{ color: "#363636", typography: { sm: "h4", xs: "h5" }, mb: 2, fontWeight: "bold !important" }}>
-                        Download token whitepaper{" "}
-                    </Box>
+                    <Box sx={{ color: "#363636", typography: { sm: "h4", xs: "h5" }, mb: 2, fontWeight: "bold !important" }}>Why You Choose us </Box>
 
                     <Typography variant="body" color="#363636" component="div">
                         Considering the growing interest of public towards the crypto currencies and their rising popularity, this template has got
