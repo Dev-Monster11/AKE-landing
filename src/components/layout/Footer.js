@@ -60,7 +60,7 @@ const Footer = () => {
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={6}>
-                    <Box sx={{ display: "flex", justifyContent: { sm: "flex-end", xs: "flex-start" } }}>
+                    <Box sx={{ display: "flex", justifyContent: { sm: "flex-end", xs: "flex-start" }, pr: 4 }}>
                         Terms | Privacy <br />
                         @2022 Alkebuleum, All Rights Reserved
                     </Box>
