@@ -27,7 +27,7 @@ const Timer = (props) => {
             return (
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <div>
-                        <div className="timeElement">00</div>
+                        <div className="timeElement">000</div>
                         <div>days</div>
                     </div>
                     <div>
@@ -48,7 +48,7 @@ const Timer = (props) => {
             return (
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <div>
-                        <div className="timeElement">{("0" + days).slice(-2)}</div>
+                        <div className="timeElement">{("00" + days).slice(-3)}</div>
                         <div>days</div>
                     </div>
                     <div>
@@ -71,7 +71,7 @@ const Timer = (props) => {
         return (
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <div>
-                    <div className="timeElement">00</div>
+                    <div className="timeElement">000</div>
                     <div>days</div>
                 </div>
                 <div>
@@ -118,9 +118,9 @@ const FeaturesSection = () => {
         <Box sx={{ py: 7, border: "none", bgcolor: "white" }}>
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
                 <Grid item xs={12} md={6} sx={{ px: 3 }}>
-                    <Card sx={{ minWidth: 275, maxWidth: 600, mx: "auto", bgcolor: "#b0946e", color: "white", py: 3 }}>
+                    <Card sx={{ minWidth: 275, maxWidth: 600, mx: "auto", bgcolor: "#e6be9a", color: "#363636", py: 3 }}>
                         <CardContent sx={{ textAlign: "center" }}>
-                            <Box sx={{ fontWeight: "bold", color: "white", mb: 3, typography: { sm: "h4", xs: "h5" } }} component="div">
+                            <Box sx={{ fontWeight: "bold", mb: 3, typography: { sm: "h4", xs: "h5" } }} component="div">
                                 TOKEN SALE ENDS IN
                             </Box>
 
