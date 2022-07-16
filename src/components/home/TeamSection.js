@@ -11,6 +11,9 @@ const TeamSection = () => {
     const arr = ["abc", "abc", "abc", "abc", "abc", "abc"];
     return (
         <Box sx={{ py: 7, border: "none", bgcolor: "white" }}>
+            <Box sx={{ fontWeight: "bold", color: "#363636", mb: 5, typography: { sm: "h4", xs: "h5" }, textAlign: "center" }} component="div">
+                Team Members
+            </Box>
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
                 {arr.map((ele) => {
                     return (
