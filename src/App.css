@@ -90,6 +90,9 @@ input[type=number] {
   font-size: 30px;
   font-weight: bold;
 }
+.bigger{
+  width: 60px;
+}
 .socialLink{
   color: #363636 !important;
   background-color: white !important;

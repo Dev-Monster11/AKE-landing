@@ -27,7 +27,7 @@ const Timer = (props) => {
             return (
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <div>
-                        <div className="timeElement">000</div>
+                        <div className="timeElement bigger">000</div>
                         <div>days</div>
                     </div>
                     <div>
@@ -48,7 +48,7 @@ const Timer = (props) => {
             return (
                 <div style={{ display: "flex", justifyContent: "center" }}>
                     <div>
-                        <div className="timeElement">{("00" + days).slice(-3)}</div>
+                        <div className="timeElement bigger">{("00" + days).slice(-3)}</div>
                         <div>days</div>
                     </div>
                     <div>
@@ -71,7 +71,7 @@ const Timer = (props) => {
         return (
             <div style={{ display: "flex", justifyContent: "center" }}>
                 <div>
-                    <div className="timeElement">000</div>
+                    <div className="timeElement bigger">000</div>
                     <div>days</div>
                 </div>
                 <div>
