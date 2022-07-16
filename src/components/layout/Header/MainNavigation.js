@@ -24,7 +24,7 @@ const MainNavigation = () => {
                 elevation={0}
                 sx={{ backgroundImage: "linear-gradient(to right, #b79472 , #f9d0ba)", backdropFilter: "blur(20px)" }}
             >
-                <Toolbar sx={{ borderBottom: 1, borderColor: "grey.100" }}>
+                <Toolbar>
                     <Box sx={{ marginRight: "auto" }}>
                         <Link to="/" style={{ marginRight: "auto" }}>
                             <img src="logo.png" alt="ELO logo" width="35" style={{ float: "left" }} />
