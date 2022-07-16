@@ -42,19 +42,19 @@ const Footer = () => {
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <Box sx={{ display: "flex", justifyContent: "flex-start" }}>
-                        <Link href="#" underline="none" className="socialLink">
+                        <Link href="https://twitter.com/alkebuleum" target="_blank" underline="none" className="socialLink">
                             <Twitter />
                         </Link>
-                        <Link href="#" underline="none" className="socialLink">
+                        <Link href="https://Facebook.com/Alkebuleum" target="_blank" underline="none" className="socialLink">
                             <Facebook />
                         </Link>
-                        <Link href="#" underline="none" className="socialLink">
+                        <Link href="https://Instagram.com/Alkebuleum" target="_blank" underline="none" className="socialLink">
                             <Instagram />
                         </Link>
-                        <Link href="#" underline="none" className="socialLink">
+                        <Link href="#" underline="none" target="_blank" className="socialLink">
                             <Reddit />
                         </Link>
-                        <Link href="#" underline="none" className="socialLink">
+                        <Link href="#" underline="none" target="_blank" className="socialLink">
                             <Telegram />
                         </Link>
                     </Box>
