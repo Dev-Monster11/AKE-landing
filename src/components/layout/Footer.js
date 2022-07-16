@@ -23,8 +23,8 @@ const Footer = () => {
                     <Box sx={{ fontWeight: "bold", mb: 1, color: "#6d8d6e", typography: { sm: "h5", xs: "h6" } }} component="div">
                         About us
                     </Box>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget. Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    Alkebuleum is a community-run decentralized network with a mission to tailor blockchain technology for developing nation. This
+                    website, the community and network activities are coordinated and maintained by the Alkebuleum DAO.
                 </Grid>
                 <Grid item xs={12} sm={6}>
                     <Box sx={{ fontWeight: "bold", mb: 1, color: "#6d8d6e", typography: { sm: "h5", xs: "h6" } }} component="div">
