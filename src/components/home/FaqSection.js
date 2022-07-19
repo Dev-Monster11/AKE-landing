@@ -40,7 +40,7 @@ const FaqSection = () => {
     };
 
     return (
-        <Box sx={{ py: 8, mx: "auto", width: "80%" }}>
+        <Box sx={{ py: 8, mx: "auto", width: "80%" }} id="faqsection">
             <Box sx={{ fontWeight: "bold", color: "#363636", mb: 5, typography: { sm: "h4", xs: "h5" }, textAlign: "center" }} component="div">
                 Frequently Asked Questions
             </Box>

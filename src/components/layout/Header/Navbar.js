@@ -10,7 +10,7 @@ import Button from "@mui/material/Button";
 //const Navbar = ({mainLinks, presaleLink, bridgeLink, moreMenuLinks, comingSoonLink, handleClickContracts}) => {
 const Navbar = (props) => {
     const [anchorMoreEl, setAnchorMoreEl] = useState(null);
-    const menuArr = ["Home", "About ICO", "Roadmap", "Team & Partners", "Token", "Faq", "How to Buy", "News"];
+    const menuArr = [{name:"Home",link:"#"},{name:"About ICO",link:"#"},{name:"Roadmap",link:"#roadmapsection"},{name:"Team & Partners",link:"#teamsection"},{name:"Token",link:"#featuressection"},{name:"Faq",link:"#faqsection"},{name:"News",link:"#"}];
 
     const handleCloseMoreMenu = () => {
         setAnchorMoreEl(null);
@@ -21,8 +21,8 @@ const Navbar = (props) => {
             <Stack direction="row" spacing={3} alignItems="center">
                 {menuArr.map((ele) => {
                     return (
-                        <Button key={ele} component="a" to="/" color="inherit" size="large" sx={{ fontWeight: "bold", color: "#363636" }}>
-                            {ele}
+                        <Button key={ele.name} component="a" href={ele.link} color="inherit" size="large" sx={{ fontWeight: "bold", color: "#363636" }} >
+                            {ele.name}
                         </Button>
                     );
                 })}

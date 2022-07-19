@@ -130,7 +130,7 @@ const RoadmapMobile = () => {
 
 const RoadmapSection = () => {
     return (
-        <Box sx={{ py: 7, bgcolor: "white" }}>
+        <Box sx={{ py: 7, bgcolor: "white" }} id="roadmapsection">
             <Container>
                 <Typography variant="h4" component="div" color="text.primary" sx={{ fontWeight: "bold", mb: 2, textAlign: "center" }}>
                     Roadmap

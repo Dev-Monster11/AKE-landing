@@ -15,7 +15,7 @@ const drawerWidth = 220;
 const SideDrawer = ({ onClose, open, window, handleClickContracts }) => {
     const router = useLocation();
     const container = window !== undefined ? () => window().document.body : undefined;
-    const menuArr = ["Home", "About ICO", "Roadmap", "Team & Partners", "Token", "Faq", "How to Buy", "News"];
+    const menuArr = [{name:"Home",link:"#"},{name:"About ICO",link:"#"},{name:"Roadmap",link:"#roadmapsection"},{name:"Team & Partners",link:"#teamsection"},{name:"Token",link:"#featuressection"},{name:"Faq",link:"#faqsection"},{name:"News",link:"#"}];
 
     const handleClickContractsItem = () => {
         onClose();
@@ -50,8 +50,8 @@ const SideDrawer = ({ onClose, open, window, handleClickContracts }) => {
             <Box sx={{ overflow: "auto" }}>
                 <List sx={{ maxWidth: drawerWidth }} component="nav" className="sidebar" aria-labelledby="main-list" dense>
                     {menuArr.map((link) => (
-                        <ListItemButton component="a" to={link} key={link} selected={router.pathname === link} onClick={onClose}>
-                            <ListItemText primary={link} />
+                        <ListItemButton component="a" to={link.link} key={link.name} selected={router.pathname === link.name} onClick={onClose}>
+                            <ListItemText primary={link.name} />
                         </ListItemButton>
                     ))}
                 </List>

@@ -9,7 +9,7 @@ import Container from "@mui/material/Container";
 
 const HeroSection = () => {
     return (
-        <Box className="fadeInUp" sx={{ m: 0, mt: { sm: 8, xs: 7 } }}>
+        <Box className="fadeInUp" sx={{ m: 0, mt: { sm: 8, xs: 7 } }} id="herosection">
             <Box
                 component="img"
                 alt="back"

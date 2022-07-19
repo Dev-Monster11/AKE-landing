@@ -1,6 +1,6 @@
 import * as React from "react";
 import { useState, useEffect } from "react";
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Box } from "@mui/material";
 import MainNavigation from "../components/layout/Header/MainNavigation";
 import Footer from "../components/layout/Footer";
@@ -8,7 +8,7 @@ import Home from "./home";
 
 function Main() {
     return (
-        <Router>
+        <BrowserRouter>
             {/* <HeaderNav /> */}
             <MainNavigation />
             <Box>
@@ -17,7 +17,7 @@ function Main() {
                 </Routes>
             </Box>
             <Footer />
-        </Router>
+        </BrowserRouter>
     );
 }
 

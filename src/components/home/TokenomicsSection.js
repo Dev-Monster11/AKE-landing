@@ -65,6 +65,7 @@ const TokenomicsSection = () => {
         borderBottom: 1, 
         borderColor: "grey.100"
       }}
+      id="tokenomicssection"
     >
       <Container>
         <Typography 

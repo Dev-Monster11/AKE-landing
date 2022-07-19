@@ -10,14 +10,14 @@ import { styled } from "@mui/material/styles";
 const TeamSection = () => {
     const arr = ["abc", "abc", "abc", "abc", "abc", "abc"];
     return (
-        <Box sx={{ py: 7, border: "none", bgcolor: "white" }}>
+        <Box sx={{ py: 7, border: "none", bgcolor: "white" }} id="teamsection">
             <Box sx={{ fontWeight: "bold", color: "#363636", mb: 5, typography: { sm: "h4", xs: "h5" }, textAlign: "center" }} component="div">
                 Team Members
             </Box>
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
-                {arr.map((ele) => {
+                {arr.map((ele,index) => {
                     return (
-                        <Grid item xs={12} sm={6} md={4} sx={{ px: 3 }}>
+                        <Grid item xs={12} sm={6} md={4} sx={{ px: 3 }} key={index}>
                             <Card
                                 sx={{
                                     minWidth: 300,

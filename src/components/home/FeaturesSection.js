@@ -115,7 +115,7 @@ const Square = ({ language }) => {
 };
 const FeaturesSection = () => {
     return (
-        <Box sx={{ py: 7, border: "none", bgcolor: "white" }}>
+        <Box sx={{ py: 7, border: "none", bgcolor: "white" }} id="featuressection">
             <Grid container spacing={4} sx={{ width: "100%", mx: 0 }}>
                 <Grid item xs={12} md={6} sx={{ px: 3 }}>
                     <Card sx={{ minWidth: 275, maxWidth: 600, mx: "auto", bgcolor: "#b29874", color: "#363636", py: 3 }}>

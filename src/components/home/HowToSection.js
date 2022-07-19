@@ -70,7 +70,7 @@ const HowToSection = () => {
     };
 
     return (
-        <Box id="getELO" sx={{ py: 7, border: "none" }}>
+        <Box id="getELO" sx={{ py: 7, border: "none" }} id="howtosection">
             <Container>
                 <Typography variant="body1" color="primary.main" sx={{ mb: 1, fontWeight: 700, textAlign: "center" }}>
                     Let's Get started
