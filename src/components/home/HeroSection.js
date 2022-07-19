@@ -25,8 +25,8 @@ const HeroSection = () => {
                     Decentralized platform powering the cryptocurrency Alke (AKE) and tailoring smart economy solutions for developing nations
                 </Box>
                 <Box sx={{ display: "flex", justifyContent: "center" }}>
-                    <Button sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Read More</Button>
-                    <Button sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Buy AKE</Button>
+                    <Button component="a" target="_blank" href="/readmore" sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Read More</Button>
+                    <Button component="a" target="_blank" href="/buytoken" sx={{ backgroundColor: "#dbb189", color: "black", fontWeight: "bold", mx: { sm: 3, xs: 1 }, px: 3 }}>Buy AKE</Button>
                 </Box>
             </Box>
         </Box>

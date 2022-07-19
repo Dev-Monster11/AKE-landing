@@ -18,8 +18,8 @@ const WhyUsSection = () => {
                         Especially if you’re already looking for a solution for a website that would accept charges of different currencies.
                     </Typography>
                     <Box>
-                        <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3, mr: 3 }}>Read More</Button>
-                        <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3, mr: 3 }}>Buy AKE</Button>
+                        <Button component="a" target="_blank" href="/readmore"  sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3, mr: 3 }}>Read More</Button>
+                        <Button component="a" target="_blank" href="/buytoken"  sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3, mr: 3 }}>Buy AKE</Button>
                     </Box>
                 </Grid>
                 <Grid item xs={12} sm={5} sx={{ px: 3, display: "flex", justifyContent: "center" }}>

@@ -130,7 +130,7 @@ const FeaturesSection = () => {
                                 <BorderLinearProgress variant="determinate" value={50} />
                             </Box>
                             <Box>
-                                <Button sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More AKE</Button>
+                                <Button component="a" target="_blank" href="/buytoken"  sx={{ color: "white", bgcolor: "#6d8d6e", mt: 3, px: 3 }}>Buy More AKE</Button>
                             </Box>
                         </CardContent>
                     </Card>
